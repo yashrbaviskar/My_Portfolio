@@ -46,7 +46,7 @@ export default function Projects({ projects }: ProjectsProps) {
       title: 'AI-Based Attendance Management System Using FaceRecognition',
       description: 'This project automates attendance marking using real-time face detection and recognition. It captures student faces, trains a model using the LBPH algorithm, and logs attendance in a database or CSV file.',
       technologies: ['OpenCV', 'Python', 'Haar Cascades', 'LBPM','CSV'],
-      github_url: '#',
+      github_url: 'https://github.com/yashrbaviskar/AI-Based-Attendance-Management-System/tree/main/Attendance-Management-system-using-face-recognition-master',
       project_url: '',
       image_url: '',
       created_at: '',
