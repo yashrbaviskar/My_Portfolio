@@ -74,6 +74,28 @@ export default function Projects({ projects }: ProjectsProps) {
       created_at: '',
       updated_at: '',
     },
+    {
+      id: '4',
+      title: 'AI-BASED INTERACTIVE CLASS SCHEDULING SYSTEM WITH REAL-TIME CHAT ANALYSIS',
+      description: 'The system integrates automation, AI analysis, and communication tools, making it a modern solution for educational institutions.',
+      technologies: ['React','FireBase Authentication','Node.js','AI and ML'],
+      github_url: 'https://github.com/yashrbaviskar/automatic-institute-class-scheduler',
+      project_url: '',
+      image_url: '',
+      created_at: '',
+      updated_at: '',
+    },
+    {
+      id: '5',
+      title: 'Womens Day Website 2026 Celebrating the Women of Our Home',
+      description: 'A heartfelt digital scrapbook honoring the incredible women of our family.',
+      technologies: ['React','Node.js'],
+      github_url: 'https://github.com/yashrbaviskar/Womens_Day_Website',
+      project_url: 'https://womens-day-website-family.vercel.app',
+      image_url: '/women.png',
+      created_at: '',
+      updated_at: '',
+    },
   ]
 
   const displayProjects = projects && projects.length > 0 ? projects : defaultProjects
