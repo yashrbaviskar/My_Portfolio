@@ -54,7 +54,7 @@ export default function Projects({ projects }: ProjectsProps) {
     },
     {
       id: '2',
-      title: 'Mail clone - Desktop Application',
+      title: 'Quiz Master Desktop App',
       description: 'An interactive and engaging app that allows users to participate in quizzes and answer questions on various topics.',
       technologies: ['Java','AWT','SQL'],
       github_url: '#',
