@@ -11,7 +11,7 @@ export default function Statistics({
   projectsCount = 10, 
   yearsExperience = 3, 
   contributions = 100,
-  connections = 500 
+  connections = 1500 
 }: StatisticsProps) {
   const stats = [
     {
