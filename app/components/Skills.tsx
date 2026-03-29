@@ -18,7 +18,7 @@ export default function Skills({ skills }: SkillsProps) {
   // Default categories if no skills
   const defaultCategories: Record<string, string[]> = {
     'Programming': ['Python','C/C++', 'DSA', 'Java','MySQL', 'HTML/CSS', 'JavaScript','Docker','Kubernetes'],
-    'Familiar': ['AI','Android', 'IoT', 'Cloud Computing', 'Git/GitHub', 'YOLO V8', 'AI', 'NLP', 'Django', 'Linux','React'],
+    'Familiar': ['AI','Android', 'IoT', 'Cloud Computing', 'Git/GitHub', 'Apache Spark', 'AI', 'NLP', 'MongoDB', 'Linux','React'],
   }
 
   const categoriesToDisplay = Object.keys(skillsByCategory).length > 0 
