@@ -32,8 +32,8 @@ export default function Experience({ experiences }: ExperienceProps) {
       end_date: '2022-09-30',
       current: false,
       description: [
-        'Designed and maintained the projects based on Java Servlet JSP and SQL',
-        'Developed a MIS for college with backend connectivity of SQL',
+        'Designed and maintained the projects based on Java AWT and SQL',
+        'Developed a Quiz Master Desktop App',
         'Completed a 2-month on-site internship',
       ],
     },
