@@ -27,7 +27,7 @@ export default function Experience({ experiences }: ExperienceProps) {
     {
       id: '1',
       title: 'Java Developer Intern',
-      company: 'Globemind',
+      company: 'Globeminds Technology',
       start_date: '2022-07-01',
       end_date: '2022-09-30',
       current: false,
