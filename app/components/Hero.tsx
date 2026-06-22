@@ -31,7 +31,7 @@ export default function Hero({ personalInfo, profileLinks }: HeroProps) {
           <div className="flex-1 text-center lg:text-left space-y-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/80 backdrop-blur-sm rounded-full border border-gray-200 shadow-sm mb-4">
               <Sparkles className="w-4 h-4 text-blue-600" />
-              <span className="text-sm font-medium text-gray-700">Software Engineer</span>
+              <span className="text-sm font-medium text-gray-700">AI Engineer</span>
             </div>
             
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-extrabold leading-tight">
