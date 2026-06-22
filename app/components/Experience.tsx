@@ -37,6 +37,18 @@ export default function Experience({ experiences }: ExperienceProps) {
         'Completed a 2-month on-site internship',
       ],
     },
+    {
+      id: '2',
+      title: 'AI Engineer Intern',
+      company: ' Progrentures Solution Pvt.Ltd',
+      start_date: '2025-05-01',
+      end_date: '2025-08-30',
+      current: false,
+      description: [
+        'Developed and optimized AI-driven solutions using Python, SQL, and machine learning techniques.',
+        'Designed data processing pipelines and automation workflows to streamline repetitive tasks and boost user productivity.',
+      ],
+    }
   ]
 
   const displayExperiences = experiences && experiences.length > 0 ? experiences : defaultExperiences
